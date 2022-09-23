@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package com.mpbb.ironbows.fabric.item;
 
 import net.minecraft.recipe.Ingredient;
 

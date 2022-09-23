@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "ironbows-fabric",
+  "id": "ironbows",
   "version": "${version}",
 
   "name": "Iron Bows (Fabric)",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.mpbb.ironbows-fabric.IronBowsFabric"
+      "com.mpbb.ironbows.fabric.IronBows"
     ]
   },
 
