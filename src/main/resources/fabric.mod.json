@@ -19,7 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.mpbb.ironbows.fabric.IronBows"
+      "com.mpbb.ironbows.fabric.Main"
+    ],
+    "client": [
+      "com.mpbb.ironbows.fabric.Client"
     ]
   },
 
