@@ -27,7 +27,7 @@ public class TieredBowItem extends BowItem {
 		this.tier = tier;
 	}
 	
-	public PersistentProjectileEntity customArrow(PersistentProjectileEntity arrow) {
+	private PersistentProjectileEntity customArrow(PersistentProjectileEntity arrow) {
 		arrow.setDamage(arrow.getDamage() + this.tier.getAttackDamageBonus());
 		return arrow;
 	}
